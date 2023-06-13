@@ -23,7 +23,7 @@ This Python script automates the typing speed test on the website [10FastFingers
 5. Save the script and close the text editor.
 6. Open a terminal or command prompt and navigate to the directory where the script is located.
 7. Run the script using the following command:
-``` python automate_typing_speed_test.py ```
+``` TypingTest.py ```
 8. Sit back and relax as the script automatically completes the typing speed test on 10FastFingers.
 
 ## Disclaimer
