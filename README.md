@@ -23,7 +23,8 @@ This Python script automates the typing speed test on the website [10FastFingers
 5. Save the script and close the text editor.
 6. Open a terminal or command prompt and navigate to the directory where the script is located.
 7. Customize the `time.sleep(6)` value to set the desired waiting time when the website is initially loaded. Adjusting this value allows you to extend or reduce the pause duration before the typing speed test begins. By providing an adequate waiting time, you can ensure sufficient time to handle any cookie consent prompts or website loading delays, ensuring smooth automation of the typing speed test.
-8. Run the script using the following command:
+8. You can modify the values on lines 26 and 28 to adjust the typing speed during the test. By increasing or decreasing the `time.sleep()` values, you can control the delay between each character typed, resulting in a slower or faster input pace. Experimenting with these values allows you to fine-tune the typing speed simulation according to your preference or specific testing requirements.
+9. Run the script using the following command:
 ``` python TypingTest.py ```
 8. Sit back and relax as the script automatically completes the typing speed test on 10FastFingers.
 
