@@ -22,7 +22,8 @@ This Python script automates the typing speed test on the website [10FastFingers
 4. Open the script in a text editor and update the chromedriver path in the line `os.environ["PATH"] += os.pathsep + r'../Downloads/chromedriver_win32/'` to the appropriate path on your system.
 5. Save the script and close the text editor.
 6. Open a terminal or command prompt and navigate to the directory where the script is located.
-7. Run the script using the following command:
+7. Customize the time.sleep(6) value to set the desired waiting time when the website is initially loaded. Adjusting this value allows you to extend or reduce the pause duration before the typing speed test begins. By providing an adequate waiting time, you can ensure sufficient time to handle any cookie consent prompts or website loading delays, ensuring smooth automation of the typing speed test.
+8. Run the script using the following command:
 ``` python TypingTest.py ```
 8. Sit back and relax as the script automatically completes the typing speed test on 10FastFingers.
 
